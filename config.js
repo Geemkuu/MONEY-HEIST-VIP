@@ -22,9 +22,9 @@ const fsm = require('fs'); if (fsm.existsSync('config.env')) require('dotenv').c
 */
 
 SESSION_ID: process.env.SESSION_ID || "MONEY-HEIST-MD-7BMgCYJB#obIvi4T905W1b8TNJP-GQygMy4tr5UPDq-R1LlvAGdU-DILALK", 
-MONGODB: process.env.MONGODB || "",
+MONGODB: process.env.MONGODB || "mongodb+srv://geemkuu:<nyarianga>@cluster0.fgmvwza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
 HEROKU_API: process.env.HEROKU_API || "HRKU-ed5c6fb8-14b9-4e21-b652-0df45300750f",
-OWNER_NUMBER:process.env.OWNER_NUMBER || "mongodb+srv://geemkuu:<nyarianga>@cluster0.fgmvwza.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+OWNER_NUMBER:process.env.OWNER_NUMBER || "",
 
 //Github Workflows Deploy කරනව නම් පමනක් පහත Env යෙදිය යුතුය!
 GITHUB_TOKEN: process.env.GITHUB_TOKEN || "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",
